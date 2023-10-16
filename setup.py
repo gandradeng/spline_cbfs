@@ -8,3 +8,9 @@ setup(name='compatible_clf_cbf',
       license='GPLv3',
       packages=find_packages(include=['spline_cbfs.*']),
       zip_safe=False)
+      install_requires=[
+        'numpy',
+        'maplotlib',
+        'quadprog',
+        'daqp'
+    ]
